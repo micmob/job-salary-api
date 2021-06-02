@@ -1,0 +1,21 @@
+{
+    "name": "job-salary-api",
+    "version": "1.0.0",
+    "description": "Unofficial Salary Expert api.",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server",
+        "server": "nodemon server"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.21.1",
+        "cheerio": "*",
+        "express": "^4.17.1",
+        "node-fetch": "^2.6.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.7"
+    }
+}
