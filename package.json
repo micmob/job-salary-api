@@ -1,11 +1,14 @@
 {
-    "name": "job-salary-api",
+    "name": "@job-analytics/job-salary-api",
     "version": "1.0.0",
     "description": "Unofficial Salary Expert api.",
     "main": "server.js",
     "scripts": {
         "start": "node server",
         "server": "nodemon server"
+    },
+    "publishConfig": {
+        "access": "public"
     },
     "author": "",
     "license": "ISC",
